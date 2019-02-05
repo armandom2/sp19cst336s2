@@ -1,13 +1,11 @@
-body{
+body {
     background-color:black;
     color:gray;
 }
-
-header, main, nav, footer{
+header, main, nav, footer {
     text-align: center;
 }
-
-nav a{
+nav a {
     padding: 15px;
     padding-bottom: 4px;
     font-size: 1.8em;
@@ -15,7 +13,50 @@ nav a{
     color: white;
 }
 nav a:hover{
-    border-bottom: 2px;
+    border-bottom: 2px orange solid;
     font-size: 2em;
     transition: .9s;
+}
+#me, #welcomeText{
+    float: left;
+}
+footer {
+    clear: left;
+    font-size: 10px;
+    color: red;
+}
+div {
+    text-align: left;
+}
+h1{
+    color: #32D5F6;
+    font-family: 'Pacifico', cursive;
+    font-size: 4em;
+    margin-bottom: 0px;
+}
+table{
+    margin: 0px auto;
+}
+td{
+    padding-right: 10px;
+}
+td strong{
+    color:orange;
+}
+#table-header{
+    background-color: #341a00;
+}
+.table-row{
+    background-color: #753900;
+}
+ul{
+    text-align: left;
+    padding-left: 200px;
+}
+.hobby{
+    color: yellow;
+}
+#contactsheet{
+    text-align: center;
+    
 }
