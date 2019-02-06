@@ -1,0 +1,208 @@
+#center{
+    display: flex;
+    justify-content:center;
+}
+#cplus{
+    height: 50px;
+    width: 50px;
+}
+#cplus{
+    float: right;
+}
+#images{
+    display: flex;
+    flex-direction: column;
+    float: right;
+}
+#cplusimg, #javaimg, #pythonimg{
+    height: 170px;
+    width: 270px;
+}
+#languageimg{
+    height: 170px;
+    width: 270px;
+    margin-bottom:75px;
+}
+#levelimg{
+    height: 170px;
+    width: 270px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+nav a {
+    padding: 15px;
+    padding-bottom: 4px;
+    font-size: 1.8em;
+    text-decoration: none;
+    color: orange;
+}
+nav{
+    text-align: center;
+    color: white;
+}
+nav a:hover{
+    border-bottom: 2px orange solid;
+    font-size: 2em;
+    transition: .9s;
+}
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+body {
+    background-color:black;
+    color: white;
+}
+header {
+  background-color: purple;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+#cppHeader{
+  background-color: #47F34F;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+#javaHeader{
+  background-color: #3C81DE;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+#pyHeader{
+  background-color: #F4F43E;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+#introcpp{
+    color: #47F34F;
+}
+#introjava{
+    color: #3C81DE;
+}
+#intropy{
+    color: #F4F43E;
+}
+
+.right{
+    margin-left: 100px;
+}
+.rightTwo{
+    margin-left: 150px;
+    margin-top:-150px;
+}
+
+footer {
+  margin-top: 45px;
+  background-color: purple;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+}
+#linkcolor{
+    color:red;
+}
+a{
+    color: pink;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.vl {
+  border-left: 6px solid #47F34F;
+  height: 600px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.vljava{
+  border-left: 6px solid #3C81DE;
+  height: 600px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.vlpy{
+  border-left: 6px solid #F4F43E;
+  height: 600px;
+  margin-left: 100px;
+  margin-right: 100px;
+    
+}
+.vir {
+  border-left: 6px solid #47F34F;
+  height: 400px;
+  margin-left: 175px;
+  margin-right: 200px;
+}
+.virJava {
+  border-left: 6px solid #3C81DE;
+  height: 400px;
+  margin-left: 175px;
+  margin-right: 200px;
+}
+.virPy{
+  border-left: 6px solid #F4F43E;
+  height: 400px;
+  margin-left: 175px;
+  margin-right: 200px;
+    
+}
+.topLeft{
+    text-align: left;
+    margin-left:-20px;
+
+}
+.topRight{
+    text-align: center;
+}
+.BottomLeft{
+    text-align: left;
+}
+.BottomLeft{
+    text-align: center;
+}
+
+#cppProjects{
+
+    height: 400px;
+    width:450px;
+    
+}
+.cppFooter{
+  margin-top: 0px;
+  background-color: #47F34F;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+    
+}
+.javaFooter{
+  margin-top: 0px;
+  background-color: #3C81DE;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: white; 
+}
+.pyFooter{
+  margin-top: 0px;
+  background-color: #F4F43E ;
+  padding: 5px;
+  text-align: center;
+  font-size: 15px;
+  color: white; 
+}
+.pyfont{
+    color:black;
+}
