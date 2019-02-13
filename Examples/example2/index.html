@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+    </head>
+<body>
+
+        <h2 id = "weekday"> Weekdays: </h2>
+        <h3 class = "smallFont"> Weekdays: </h3>
+        <img src="img/my_image.png" />
+        <div id="box" style="width:100px; height:100px; background:red; position:absolute;">
+    
+        
+        </div>
+
+        
+        <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+        </script>
+        
+        <script>
+            $("document").ready( function() {
+               //console.log("Hey dog")
+               //$("h3:first").html("Today is Monday");
+               //$('elementID:filter');
+               //$('.elementClassName:filter');
+               //$("#weekday").css("color","red");
+               //$(".smallFont").css("color","red");
+               $('h2').click(function(){
+                    $(this).css("border", "solid 2px");
+               });
+               
+               $('#box').click ( function() { 
+                    $('#box').animate({ left:'250px' });
+                    setTimeout(function(){3000});
+               });
+
+               
+            });
+        </script>
+
+    </body>
+</html>

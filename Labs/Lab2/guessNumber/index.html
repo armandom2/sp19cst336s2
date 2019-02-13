@@ -13,43 +13,54 @@
         <link href="css/styles.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-
         <div class="jumbotron">
             <h1>Guess a Number</h1>
         </div>
         
-        <div id="directions">
+        <div id="directions" class="resetParas">
             Guess a number between 1 and 99 in seven attempts!
-            <label for= "guessField"> Enter a guess: </label>
-            <input type= "text" id="guessField" class="guessField">
-            <input type= "submit" value="Submit guess" class= "guessSubmit">
             
-            <br><br>
-            <p id ="guesses"></p>
+            </br></br>
+            <label for="guessField">Enter a guess: </label>
+            <input type="text" id="guessField" class="guessField"/>
+            <input type="submit" value="Submit guess" class="guessSubmit"/>
+            
+            </br></br>
+            <p id="guesses"></p>
             <p id="lastResult"></p>
-            <p id= "lowOrHi"></p>
-            <button id='reset'>Reset</button>
-
-            <!--Random Number:<span id= "numberToGuess"></span>-->
+            <p id="lowOrHigh"></p>
+            <p id="winsLosses"></p>
+            <button id="reset">Reset</button>
         </div>
         
+        <script SRC='js/functions.js'></script>
+        <script   src="https://code.jquery.com/jquery-3.3.1.min.js"   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="   crossorigin="anonymous"></script>
         <script type="text/javascript">
-            //java code goes here
-            var randomNumber = Math.floor(Math.random() * 99)+1;
-            var guesses = document.querySelector('#guesses');
-            var lastResult = document.querySelector('#lastResult');
-            var lowOrHi = document.querySelector('#lowOrHi');
-            
-            var guessSubmit = document.querySelector('.guessSubmit');
-            var guessField = document.querySelector('.guessField');
-            
-            var guessCount = 1;
-            var resetButton = document.querySelector('#rest');
-            resetButton.style.display='none';
-            
-            console.log(randomNumber);
-            document.getElementById("numberToGuess").innerHTML = randomNumber;
+            $("document").ready( function() {
+	            //jQuery code will go here
+	           $("body").css({"test-align": "center", "background-size": "cover"});
+	           $(".jumbotron").css("background-color", "#edf2f9");
+	           $("#directions").css({"background-color": "#edf2f9", "font-size": "2em"});
+	           $("#directions").css({"width": "900px", "height": "200px"});
+	           $("#directions").css({"margin": "0 auto", "border-radius": "20px"});
+	           
+            });
+
         </script>
-        
     </body>
 </html>
+
+<!--body{-->
+<!--    text-align:center;-->
+<!--    background-image: url("../img/numbers_bg.jpg");-->
+<!--    background-size: cover;-->
+<!--}-->
+
+<!--#directions {-->
+<!--    background-color:#edf2f9;-->
+<!--    font-size: 2em;    -->
+<!--    width:900px;-->
+<!--    height:200px;-->
+<!--    margin:0 auto;-->
+<!--    border-radius:20px;-->
+<!--}-->
