@@ -7,7 +7,7 @@
     <body>
         <div id="top">
             <div><img id="image1" src="img/bit.jpg"></div>
-            <div><h1 align="center"> Welcome to the CSUMB Restaurant</h1></div>
+            <div><h1 align="center"> Welcome to the CSUMB Restaurant Register</h1></div>
             <div><img id="image2" src="img/dorms.jpg"> </div>
         </div>
 
@@ -54,10 +54,12 @@
                     <button id = "addedToCart" type= "button"> Add to Cart</button>
                     <button id = "Restart" type= "button"> Restart</button>
                 </div>
+                
                 <div id= "personName">
                     <div id="reiceptName"></div>
                 </div>
                 
+
                 <div id = "firstItem"></div>
                 <div id = "totalOne"> </div>
                 
@@ -134,27 +136,27 @@
                         if(numOfItems==0){
                             
                             $("#firstItem").html("<h2>"+"("+amount+") "+foodChoice+" $"+(amount*cost).toFixed(2)+"</h2>" );
-                            $("#totalOne").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                            $("#totalOne").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3><hr><h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
                         }
                         if(numOfItems==1){
                             $("#totalOne").html("");
-                            $("#secondItem").html("<h2>"+"("+amount+")"+foodChoice+" $"+(amount*cost).toFixed(2)+"</h2>" );
-                            $("#totalTwo").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                            $("#secondItem").html("<h2>"+"("+amount+") "+foodChoice+" $"+(amount*cost).toFixed(2)+"</h2>" );
+                            $("#totalTwo").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3><hr> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
                         }
                         if(numOfItems==2){
                             $("#totalTwo").html("");
-                            $("#ThirdItem").html("<h2>"+"("+amount+")"+foodChoice+" $"+ (amount*cost).toFixed(2)+"</h2>" );
-                            $("#totalThree").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                            $("#ThirdItem").html("<h2>"+"("+amount+") "+foodChoice+" $"+ (amount*cost).toFixed(2)+"</h2>" );
+                            $("#totalThree").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3><hr><h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
                         }
                         if(numOfItems==3){
                             $("#totalThree").html("");
-                            $("#FourthItem").html("<h2>"+"("+amount+")"+foodChoice+" $"+(amount*cost)+"</h2>" );
-                            $("#totalFour").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes +"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                            $("#FourthItem").html("<h2>"+"("+amount+") "+foodChoice+" $"+(amount*cost)+"</h2>" );
+                            $("#totalFour").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes +"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3><hr> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
                         }
                         if(numOfItems==4){
                             $("#totalFour").html("");
                             $("#FifthItem").html("<h2>"+"("+amount+") "+foodChoice+" $"+ (amount*cost)+"</h2>" );
-                            $("#totalFive").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                            $("#totalFive").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3><hr><h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
                         }
                         document.getElementById("addingItems").disabled = true;
 
