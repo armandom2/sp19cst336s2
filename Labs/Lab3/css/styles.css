@@ -1,0 +1,53 @@
+h2{
+    margin-left: 40px;
+    color:white;
+}
+#questions {
+    margin-left: 20px;
+}
+#leftSide{
+    background-color: orange;
+    margin-left: -8px;
+    height: 737px;
+    margin-bottom: -18px;
+    width: 995px;
+}
+#rightSide{
+    background-color: blue;
+    height: 737px;
+    margin-bottom: -18px;
+    width: 445px;
+    margin-right: -8px;
+    color: white;
+}
+#qpicture{
+    display: flex;
+    margin-left: 15px;
+}
+#splitscreen{
+    display: flex;
+
+}
+#img1,#img2,#img3,#img4,#img5,#img6{
+    margin-left: 15px;
+}
+p{
+    margin-bottom: 5px;
+}
+#buttons{
+    margin-top: 50px;
+    margin-left: 190px;
+    display: flex;
+    width: 250px;
+    height: 50px;
+}
+h1{
+    padding: 21.5px;
+    background-color: green;
+    color: red;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    width: 1398px;
+    margin-left: -8px;
+    
+}

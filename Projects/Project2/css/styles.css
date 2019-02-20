@@ -1,0 +1,149 @@
+#enterQuantity{
+    font-size: larger;
+    display: flex;
+    margin-top: 120px;
+    padding-left: 230px;
+    background-color: black;
+}
+#enterPrice{
+    font-size: larger;
+    display: flex;
+    padding-left: 230px;
+    background-color: black;
+}
+
+#enterName{
+    font-size: larger;
+    display: flex;
+    margin-top: 110px;
+    background-color: black;
+    padding-left: 230px;
+}
+#enterItem{
+    font-size: larger;
+    display: flex;
+    padding-left: 230px;
+    background-color: black;
+    
+}
+#enterButton{
+    display: flex;
+    font-size: larger;
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+
+}
+
+#enterPayment{
+    font-size: larger;
+    padding-left: 230px;
+    margin-top: 118px;
+    background-color: black;
+}
+#inputItems {
+    display: flex;
+    flex-direction:column;
+    color: #01DF3A;
+    background-color: black;
+    font-size: 30px;
+    margin-left: -8px;
+    margin-bottom: -10px;
+
+}
+
+#itemOrRestart{
+    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#wholePage{
+    display: flex;
+    flex-direction:row;
+}
+#reicept{
+    display: flex;
+    flex-direction: column;
+    background-color: #E1E1E1;
+    height: 732px;
+    width: 640px;
+    color: Black;
+    margin-right: -8px;
+    
+    margin-bottom: -10px;
+}
+h3{
+    margin-left: 400px;
+    margin-top: -10px;
+}
+h2{
+    margin-top: -20px;
+    margin-left: 30px;
+    word-spacing: 130px;
+}
+#reiceptName{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 1px;
+}
+
+#addedToCart, #Restart{
+    margin-top: 15px;
+    height: 40px;
+    width: 80px;
+    
+}
+#addedToCart{
+    color:green;
+    background-color: yellow;
+}
+#Restart{
+    color:red;
+    background-color: yellow;
+
+}
+body{
+    max-width: 100%;
+    max-height: 100vh;
+    height: auto;
+}
+#addingItems{
+    color:purple;
+    background-color: yellow;
+    height: 40px;
+    width: 80px;
+}
+#top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 21.5px;
+    background-color: green;
+    color: blue;
+    margin-top: -8px;
+    margin-bottom: 0px;
+    width: 1398px;
+    margin-left: -8px;
+}
+
+#image1{
+    height:80px;
+    margin-top: -22px;
+    margin-left: -22px;
+    margin-bottom: -26px;
+}
+#image2{
+    margin-top: -22px;
+    height:77px;
+    margin-right: -22px;
+    margin-bottom: -22px;
+
+}
+h1{
+    margin-bottom: -30px;
+    margin-top: -1px;
+    
+}

@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tricky Questions</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body>
+        <h1 align="center"> Questions </h1>
+            
+        <main>
+        <div id= "splitscreen">
+            <div id= "leftSide">
+                <!--Question 1-->
+                <div id= "questions">
+                    <p>1) What's heavier a pound of cotton or a pound of a stone</p>
+                    <div id="qpicture">
+                        <div>
+                            <label><input type="radio" name="answer1" value="Pound of cotton">Pound of cotton</label><br>
+                            <label><input type="radio" name="answer1" value="Pound of stone">Pound of stone</label><br>
+                            <label><input type="radio" name="answer1" value="Both a pound">Both a pound</label><br>
+                            <label><input type="radio" name="answer1" value="neither">neither</label><br>
+                        </div>
+                        <div id="img1"></div>
+                    </div>
+                </div>
+                <!--Question 2-->
+                <div id= "questions">
+                    <p>2) You have 13 puppies, all but 8 died. How many do you have left?</p>
+                    
+                    <div id="qpicture">
+                        <div>
+                            <label><input type="radio" name="answer2" value="8">8</label><br>
+                            <label><input type="radio" name="answer2" value="5">5</label><br>
+                            <label><input type="radio" name="answer2" value="13">13</label><br>
+                            <label><input type="radio" name="answer2" value="7">7</label><br>
+                        </div>
+                        <div id="img2"></div>
+                    </div>
+                </div>
+                <!--Question 3-->
+                <div id= "questions">
+                    <p>3) Some months have 31 days, others have 30 days. How many have 28 days?</p>
+                        
+                    <div id="qpicture">
+                        <div>
+                            <label><input type="radio" name="answer3" value="1">1</label><br>
+                            <label><input type="radio" name="answer3" value="2">2</label><br>
+                            <label><input type="radio" name="answer3" value="4">4</label><br>
+                            <label><input type="radio" name="answer3" value="12">12</label><br>
+                        </div>
+                        <div id="img3"></div>
+                    </div>
+                </div>
+                <!--Question 4-->
+                <div id= "questions">
+                    <p>4)how many terms did Benjaman Franklin serve as president</p>
+                    <div id="qpicture">
+                        <div>
+                            <label><input type="radio"  name="answer4" value="2">2</label><br>
+                            <label><input type="radio"  name="answer4" value="0">0</label><br>
+                            <label><input type="radio"  name="answer4" value="1">1</label><br>
+                            <label><input type="radio"  name="answer4" value="4">4</label><br>
+                        </div>
+                        <div id="img4"></div>
+                    </div>
+                </div>
+                <!--Question 5-->
+                <div id= "questions">
+                    <p>5) 7 plus 6 is 12 or 7 plus 6 are 12</p>
+                    
+                    <div id="qpicture">
+                        <div>
+                            <label><input type="radio"  name="answer5" value="7 plus 6 is 12">7 plus 6 is 12</label><br>
+                            <label><input type="radio"  name="answer5" value="7 plus 6 are 12">7 plus 6 are 12</label><br>
+                            <label><input type="radio"  name="answer5" value="Neither">Neither</label><br>
+                            <label><input type="radio"  name="answer5" value="12">12</label><br>
+                        </div>
+                        <div id="img5"></div>
+                    </div>
+                </div>
+                <!--Question 6-->
+                <div id= "questions">
+                    <p>6) A monkey, a squirrel, and a bird are racing to the top of a coconut tree.<br>Who will get the banana first, the monkey, the squirrel, or the bird?</p>
+                    <div id="qpicture">
+                        <div>
+                            <label><input type="radio"  name="answer6" value="Monkey">Monkey</label><br>
+                            <label><input type="radio"  name="answer6" value="Squirrel">Squirrel</label><br>
+                            <label><input type="radio"  name="answer6" value="Bird">Bird</label><br>
+                            <label><input type="radio"  name="answer6" value="Neither">Neither</label><br><br>
+                        </div>
+                        <div id="img6"></div>
+                    </div>
+                </div>
+            </div>
+            <div id="rightSide">
+                <div id = "buttons">
+                    <button id="submissionButton" class="submit" type="button">Submit Quiz</button>
+                    <button disabled id="resetButton" type="submit">Reset</button>
+                </div>
+                <h2 id= "results"></h2>
+                
+            </div>
+        
+        </div>
+        
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $("document").ready( function() {
+                var answer1 = "Both a pound";
+                var answer2 = "8";
+                var answer3 = "12";
+                var answer4 = "0";
+                var answer5 = "Neither";
+                var answer6 = "Neither";
+                
+                $("button.submit").on("click", function(e) {
+                    document.getElementById("submissionButton").disabled = true; 
+                    var response1 = $("input[name='answer1']:checked").val();
+
+                    var response2 = $("input[name='answer2']:checked").val();
+
+                    var response3 = $("input[name='answer3']:checked").val();
+
+                    var response4 = $("input[name='answer4']:checked").val();
+
+                    var response5 = $("input[name='answer5']:checked").val();
+
+                    var response6 = $("input[name='answer6']:checked").val();
+
+                    var correct = 0;
+                    if(answer1 == response1){
+                        correct++;
+                        $("#img1").html("<img src='img/correct.png' ></img>");
+                    }
+                    else{
+                        $("#img1").html("<img src='img/incorrect.png' ></img>");
+                    }
+                    if(answer2 == response2){
+                        correct++;
+                        $("#img2").html("<img src='img/correct.png' ></img>");
+                    }
+                    else{
+                        $("#img2").html("<img src='img/incorrect.png' ></img>");
+                    }
+                    if(answer3 == response3){
+                        correct++;
+                        $("#img3").html("<img src='img/correct.png' ></img>");
+                    }
+                    else{
+                        $("#img3").html("<img src='img/incorrect.png' ></img>");
+                    }
+                    if(answer4 == response4){
+                        correct++;
+                        $("#img4").html("<img src='img/correct.png' ></img>");
+                    }
+                    else{
+                        $("#img4").html("<img src='img/incorrect.png' ></img>");
+                    }
+                    if(answer5 == response5){
+                        correct++;
+                        $("#img5").html("<img src='img/correct.png' ></img>");
+                    }
+                    else{
+                        $("#img5").html("<img src='img/incorrect.png' ></img>");
+                    }
+                    if(answer6 == response6){
+                        correct++;
+                        $("#img6").html("<img src='img/correct.png' ></img>");
+                    }
+                    else{
+                        $("#img6").html("<img src='img/incorrect.png' ></img>");
+                    }
+                    $("#results").html("Score: " + correct + " / 6");
+                    if (correct === 6) {
+                        $("#results").html($("#results").html() + " Great job! You got 100%");
+                    }
+                    document.getElementById("resetButton").addEventListener("click", function(){
+                        document.getElementById("submissionButton").disabled = true;
+                        $('input[name="answer1"]').prop('checked', false);
+                        $('input[name="answer2"]').prop('checked', false);
+                        $('input[name="answer3"]').prop('checked', false);
+                        $('input[name="answer4"]').prop('checked', false);
+                        $('input[name="answer5"]').prop('checked', false);
+                        $('input[name="answer6"]').prop('checked', false);
+
+                    
+                        $("#img1").html("");
+                        $("#img2").html("");
+                        $("#img3").html("");
+                        $("#img4").html("");
+                        $("#img5").html("");
+                        $("#img6").html("");
+                        document.getElementById("resetButton").disabled = true;
+                        document.getElementById("submissionButton").disabled = false;
+                        $("#results").html("");
+                        correct = 0;
+                    });
+                    document.getElementById("resetButton").disabled = false;
+                });
+    
+            });
+        </script>
+        <main>
+
+    </body>
+</html>

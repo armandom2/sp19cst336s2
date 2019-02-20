@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Armando Project 2</title>
+        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div id="top">
+            <div><img id="image1" src="img/bit.jpg"></div>
+            <div><h1 align="center"> Welcome to the CSUMB Restaurant</h1></div>
+            <div><img id="image2" src="img/dorms.jpg"> </div>
+        </div>
+
+        <div id ="wholePage">
+            <div id="inputItems" style="background-image: url(img/csumb.png); height: 732px; width: 800px; background-size: 200px;" >
+                    <div id ="enterName">
+                        <div>Full Name:</div>
+                        <div><input name="fullName" id="userName" type="text" style ="height:25px;width:200px; font-size:14pt;"></div>
+                    </div>
+                    <div id="enterItem">
+                        <div>Item Name:</div>
+                        <select class = "choice" style ="font-size:14pt;">
+                            <option value="option">Option</option>
+                            <option value="Steak">Steak</option>
+                            <option value="Chicken">Chicken</option>
+                            <option value="Salad">Salad</option>
+                            <option value="Hamburger">Hamburger</option>
+                        </select>
+                    </div>
+                    <div id="enterQuantity">
+                        <div>Quantity:</div>
+                        <div><input type="number" id= "itemAmount" name="quantity" style ="height:25px;width:200px; font-size:14pt;"/></div>
+                    </div>
+                    <div id= "enterPrice">
+                        <div>Price:</div> 
+                        <div><input type="text" id = "amountCost" name ="price" style ="height:25px;width:200px; font-size:14pt;"/></div>
+                    </div>
+                    <div id="enterPayment">
+                        <div>Payment Type</div>
+                        <div>
+                            <label for= "money">Cash</label>
+                            <input type="radio" name="payment" id = "money" value="money" style ="height:25px; font-size:14pt;"><br>
+                            <label for= "card">Debit/Credit</label>
+                            <input type="radio" name="payment" id = "debitcredit" value="card" style ="height:25px; font-size:14pt;"><br>
+                        </div>
+                    </div>
+                    <div id = "enterButton">
+                        <button id="addingItems" class="submit" type="button">Add Item</button>
+                    </div>
+            </div>
+            
+            <div id="reicept">
+                <div id= "itemOrRestart">
+                    <button id = "addedToCart" type= "button"> Add to Cart</button>
+                    <button id = "Restart" type= "button"> Restart</button>
+                </div>
+                <div id= "personName">
+                    <div id="reiceptName"></div>
+                </div>
+                
+                <div id = "firstItem"></div>
+                <div id = "totalOne"> </div>
+                
+                
+                <div id ="secondItem"></div>
+                <div id = "totalTwo"> </div>
+                
+                <div id ="ThirdItem"></div>
+                <div id = "totalThree"> </div>
+                
+                <div id ="FourthItem"></div>
+                <div id = "totalFour"> </div>
+                
+                <div id ="FifthItem"></div>
+                <div id = "totalFive"> </div>
+                
+            </div>
+            
+        </div>
+        <!--Jquery-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            $("document").ready( function() {
+                $("#amountCost").on("keypress keyup blur",function (event) {
+                    $(this).val($(this).val().replace(/[^0-9\.]/g,''));
+                    if ((event.which != 46 || $(this).val().indexOf('.') != -1) && (event.which < 48 || event.which > 57)) {
+                            event.preventDefault();
+                    }
+                });
+
+                document.getElementById("addedToCart").disabled = true;
+                document.getElementById("Restart").disabled = true;
+                
+                var numOfItems = 0;
+                var taxvalue =0;
+                var cashTaxVal =0 ;
+                var cardTaxVal =0 ;
+                var totalPrice=0 ;
+                var cashTotal=0;
+                var cardTotal=0;
+                var cardDue =0;
+                var cashDue =0;
+                var taxes = 0.25;
+                var untaxed =0;
+                
+                $( "#addingItems" ).click(function() {
+                    document.getElementById("Restart").disabled = false;
+                    document.getElementById("addedToCart").disabled = false;
+                    if(numOfItems < 5){
+                        var usersName = $('#userName').val();
+                        var foodChoice= $('.choice').find(":selected").val();
+                        var amount = $('#itemAmount').val();
+                        var cost = $('#amountCost').val();
+                        var payMethod = $('input[type="radio"]:checked').val();
+                        
+                        if(payMethod == "money"){
+                            cashDue= ((amount*cost)+cashDue);
+                        }
+                        else if(payMethod == "card"){
+                            cardDue=((amount*cost)+cardDue);
+                        }
+
+                        untaxed =((amount*cost)+untaxed);
+                        taxvalue = (untaxed * taxes);
+                        totalPrice = (taxvalue + untaxed);
+                        cashTaxVal = (cashDue * taxes);
+                        cashTotal = (cashTaxVal + cashDue);
+                        cardTaxVal = (cardDue * taxes);
+                        cardTotal = (cardTaxVal + cardDue);
+                        
+                        
+                        
+                        $("#reiceptName").html("<p><u> Reicept for " +usersName+"<u></p>");
+                        if(numOfItems==0){
+                            
+                            $("#firstItem").html("<h2>"+"("+amount+") "+foodChoice+" $"+(amount*cost).toFixed(2)+"</h2>" );
+                            $("#totalOne").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                        }
+                        if(numOfItems==1){
+                            $("#totalOne").html("");
+                            $("#secondItem").html("<h2>"+"("+amount+")"+foodChoice+" $"+(amount*cost).toFixed(2)+"</h2>" );
+                            $("#totalTwo").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                        }
+                        if(numOfItems==2){
+                            $("#totalTwo").html("");
+                            $("#ThirdItem").html("<h2>"+"("+amount+")"+foodChoice+" $"+ (amount*cost).toFixed(2)+"</h2>" );
+                            $("#totalThree").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                        }
+                        if(numOfItems==3){
+                            $("#totalThree").html("");
+                            $("#FourthItem").html("<h2>"+"("+amount+")"+foodChoice+" $"+(amount*cost)+"</h2>" );
+                            $("#totalFour").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes +"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                        }
+                        if(numOfItems==4){
+                            $("#totalFour").html("");
+                            $("#FifthItem").html("<h2>"+"("+amount+") "+foodChoice+" $"+ (amount*cost)+"</h2>" );
+                            $("#totalFive").html("<h3> Sub Total: $"+untaxed.toFixed(2)+"</h3><h3> Taxes: "+taxes+"</h3><h3> Debit/Credit Due: $"+cardTotal.toFixed(2)+"</h3><h3> Cash Due: $"+cashTotal.toFixed(2)+"</h3> <h3>Total Due: $"+totalPrice.toFixed(2)+"</h3>");
+                        }
+                        document.getElementById("addingItems").disabled = true;
+
+                        $( "#addedToCart" ).click(function() {
+                            numOfItems++;
+                            $('input[name="payment"]').prop('checked', false);
+                            $('#itemAmount').val("");
+                            $('#amountCost').val("");
+                            $(".choice").val('option');
+                            document.getElementById("addedToCart").disabled = true;
+                            document.getElementById("addingItems").disabled = false;
+                            
+                        });
+                        $( "#Restart" ).click(function() {
+                            numOfItems=0;
+                            $('#userName').val("");
+                            $('input[name="payment"]').prop('checked', false);
+                            $('#itemAmount').val("");
+                            $('#amountCost').val("");
+                            $(".choice").val('option');
+                            numOfItems = 0;
+                            taxvalue =0;
+                            cashTaxVal =0 ;
+                            cardTaxVal =0 ;
+                            totalPrice=0 ;
+                            cashTotal=0;
+                            cardTotal=0;
+                            cardDue =0;
+                            cashDue =0;
+                            taxes = 0.25;
+                            untaxed =0;
+                            $("#totalOne").html("");
+                            $("#totalTwo").html("");
+                            $("#totalThree").html("");
+                            $("#totalFour").html("");
+                            $("#totalFive").html("");
+                            $("#firstItem").html("");
+                            $("#secondItem").html("");
+                            $("#ThirdItem").html("");
+                            $("#FourthItem").html("");
+                            $("#FifthItemtItem").html("");
+                            $("#reiceptName").html("");
+                            document.getElementById("addedToCart").disabled = true;
+                            document.getElementById("addingItems").disabled = false;
+                            document.getElementById("Restart").disabled = true;
+                        });
+                        
+                    }
+                    
+                });
+                
+
+
+                
+            });
+        </script>
+
+    </body>
+</html>
+
