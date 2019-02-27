@@ -1,7 +1,42 @@
-  #latOut,#longOut,#cityOut,#validUser,#validPassword,#zipOut{
+  #latOut,#longOut,#cityOut,#validUser,#validPassword,#zipOut, #userWasInputed{
     display: flex;
     flex-direction:row;
   }
   #notValid, #invalidPassword,#invalidZip{
     color:red;
   }
+  #dummybodyid{
+    background: linear-gradient(#81DAF5, #81F79F);
+  }
+  h1{
+    text-align: center;
+    border-style: ridge;
+    border-color: #04B404;
+    color: blue;
+    border-width: 20px;
+    background-color:#58FA82;
+  }
+  legend{
+    color:blue;
+  }
+  fieldset{
+    border-color: yellow;
+    border-style: inset;
+  }
+  form{
+    display: flex;
+    justify-content: center;
+    background-color: #F7BE81;
+    margin-top: -20px;
+    width:500px;
+    margin-left:480px;
+  }
+  #buttonSubmittion{
+    margin-left: 115px;
+    background-color: #F781D8;
+    color:purple;
+  }
+  #userWasInputed{
+    color:#04B486;
+  }
+  

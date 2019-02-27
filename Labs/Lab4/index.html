@@ -25,7 +25,7 @@
       <div id = "validUser"><label>Desired Username:</label><input id= "enteredUserName"type="text"><div id="notValid"></div></div>
       <div><label>Password:</label><input id="userPassword" type="password"></div>
       <div id= "validPassword"><label>Type Password Again:</label><input id = "userRePassword" type="password"><div id="invalidPassword"></div></div>
-      <div><input id = "buttonSubmittion" type="button" value="Sign up!"></div>
+      <div id="userWasInputed"><input id = "buttonSubmittion" type="button" value="Sign up!"><div id ="successful"></div> </div>
     </fieldset>
   </form>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -33,9 +33,10 @@
     var userNameDataBase = [];
     
     $("#inputZip").on("input",resultOfZip);
-    $("#displayState").change(getCounties);
+    $("#displayState").on("input", getCounties);
     
     $("#buttonSubmittion").on("click", function(){
+      $("#successful").html("");
       $("#notValid").html("")
       $("#invalidPassword").html("")
 
@@ -45,6 +46,7 @@
     });
     
     function textAlphanumeric(inputtext) {
+      $("#successful").html("");
       var passwordOne = $("#userPassword").val();
       var passwordTwo = $("#userRePassword").val();
       
@@ -79,6 +81,7 @@
         document.getElementById("userLastName").value = "";
         $("#lat").html("");
         $("#long").html("");
+        $("#successful").html("Approved!");
         document.getElementById("displayState").value = "";
         document.getElementById("displayState").value = "";
         $('#counties option:not(:first)').remove();
@@ -93,6 +96,7 @@
       }
     }
     function resultOfZip(){
+        $("#successful").html("");
         $.ajax({
           type: "GET",
           url:"http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
@@ -119,6 +123,7 @@
     }
       
       function getCounties(){
+        $("#successful").html("");
         $.ajax({
           type: "GET",
           url:"http://itcdland.csumb.edu/~milara/ajax/countyList.php",
