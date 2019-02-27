@@ -1,0 +1,7 @@
+  #latOut,#longOut,#cityOut,#validUser,#validPassword,#zipOut{
+    display: flex;
+    flex-direction:row;
+  }
+  #notValid, #invalidPassword,#invalidZip{
+    color:red;
+  }
