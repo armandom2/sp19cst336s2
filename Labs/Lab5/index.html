@@ -1,0 +1,173 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>AJAX: Sign Up Page</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body id="dummybodyid">
+  <h1> Sign Up Form </h1>
+
+  <form method="POST" action="api.php">
+    <fieldset>
+      <legend>Sign Up</legend>
+      <div><label>First Name:</label><input id = "userfirstName" type="text"></div>
+      <div><label>Last Name:</label><input id = "userLastName" type="text"></div>
+      <div><label>Email:</label><input id="userEmail" type="text"></div>
+      <div><label>Phone Number:</label><input id= "userPhoneNumber" type="text"></div>
+      <div id= "zipOut"><label>Zip Code:</label><input id= "inputZip" type="text" value= ""><div id="invalidZip"></div></div>
+      <div id= "cityOut"><label>City:</label><div id= "displayCity"></div></div>
+      <div id= "latOut"><label>Latitude:</label> <div id= "lat"></div></div>
+      <div id="longOut"><label>Longitude:</label><div id= "long"></div></div>
+      <div><label>State:</label><input id = "displayState" type="text" value =""></div>
+      <div><label>Select a County:</label><select id = "counties"><option id='displayCounty' value=''></option></select></div>
+      <div id = "validUser"><label>Desired Username:</label><input id= "enteredUserName"type="text"><div id="notValid"></div></div>
+      <div><label>Password:</label><input id="userPassword" type="password"></div>
+      <div id= "validPassword"><label>Type Password Again:</label><input id = "userRePassword" type="password"><div id="invalidPassword"></div></div>
+      <div id="userWasInputed"><input id = "buttonSubmittion" type="button" value="Sign up!"><div id ="successful"></div> </div>
+    </fieldset>
+  </form>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>
+    var userNameDataBase = [];
+    
+    $("#inputZip").on("input",resultOfZip);
+    $("#displayState").on("input", getCounties);
+    
+    $("#buttonSubmittion").on("click", function(){
+      $("#successful").html("");
+      $("#notValid").html("");
+      $("#invalidPassword").html("");
+      console.log(document.getElementById("enteredUserName").value);
+      console.log(document.getElementById("userPassword").value);
+      console.log(document.getElementById("userRePassword").value);
+      
+      // // var userNameInfo = document.getElementById('enteredUserName');
+      // // textAlphanumeric(userNameInfo);
+      $.ajax({
+        type: "POST",
+        url: "api.php",
+        dataType: "json",
+        data: {
+          "process": "validate",
+          "username": $("#enteredUserName").val(),
+          "password": [$("#userPassword").val(), $("#userRePassword").val()],
+        },
+        success: function(data) {
+          console.log(data);
+                
+          //valid username and everything filled out
+          if (data["output"] === "valid") {
+              //clear everything
+              userNameDataBase.splice(1,0,inputtext.value);
+              document.getElementById("userfirstName").value = "";
+              document.getElementById("userLastName").value = "";
+              document.getElementById("userEmail").value = "";
+              document.getElementById("userPhoneNumber").value = "";
+              document.getElementById("inputZip").value = "";
+              document.getElementById("userLastName").value = "";
+              $("#lat").html("");
+              $("#long").html("");
+              $("#successful").html("Approved!");
+              document.getElementById("displayState").value = "";
+              document.getElementById("displayState").value = "";
+              $('#counties option:not(:first)').remove();
+              
+              document.getElementById("enteredUserName").value = "";
+              document.getElementById("userPassword").value = "";
+              document.getElementById("userRePassword").value = "";
+              
+          }
+          else if (data["output"] === "Username exists") {
+              $("#notValid").html("Username already exists");
+          }
+          else if (data["output"] === "username found in password") {
+              $("#invalidPassword").html("Username should not be in password!");
+          }
+        },
+        error: function (error) {
+            console.log(error);
+        }
+      });
+    });
+    
+    $("#userPassword").focusin(function autoGeneratePassword() {
+        //call ajax
+        $.ajax({
+            type: "POST",
+            url: "api.php",
+            dataType: "json",
+            data: {
+                "process": "generatepassword",
+            },
+            success: function(data) {
+                //set passwords to recommended
+                $("#userPassword").val(data["randomPassword"]);
+                $("#userRePassword").val(data["randomPassword"]);
+            },
+            error: function (error) {
+                console.log(error);
+            },
+        });
+    });
+    
+    function resultOfZip(){
+        $("#successful").html("");
+        $.ajax({
+          type: "GET",
+          url:"http://itcdland.csumb.edu/~milara/ajax/cityInfoByZip.php",
+          dataType: "json",
+          data:{
+          "zip": $("#inputZip").val()
+          },
+          
+          success: function(data, status){
+            if(data === false){
+              $("#invalidZip").html("Zip code not found");
+            }
+            else{
+            $("#invalidZip").html("");
+            $("#lat").html(data["latitude"]);
+            $("#long").html(data["longitude"]);
+            $("#displayCity").html(data["city"]);
+            $("#displayState").val(data['state']);
+            getCounties();
+            // $("#displayCounty").text(data['county']);
+            }
+          }
+      });
+    }
+      
+    function getCounties(){
+        $("#successful").html("");
+        $.ajax({
+          type: "GET",
+          url:"http://itcdland.csumb.edu/~milara/ajax/countyList.php",
+          dataType: "json",
+          data:{
+          "state": $("#displayState").val()
+          },
+          success: function(data, status){
+            $('#counties option:not(:first)').remove();
+            if(data ===false){
+              $("#display").val("State not found");
+            }
+            else{
+              for(var i = 0; i<data.length; i++){
+                $("#counties").append("<option>"+ data[i]['county']+"</option>");
+              }
+            }
+          }
+      });
+    }
+
+    
+    
+    
+  </script>
+  
+  
+</body>
+
+</html>
