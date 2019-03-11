@@ -36,6 +36,8 @@
     
     $("#buttonSubmittion").on("click", function(){
       $("#successful").html(" ");
+      $("#invalidPassword").html(" ");
+      $("#notValid").html(" ");
       console.log(document.getElementById("enteredUserName").value);
       console.log(document.getElementById("userPassword").value);
       console.log(document.getElementById("userRePassword").value);
@@ -90,7 +92,6 @@
         
     });
     
-    //recommend password to user (fill in password field when clicked)
     $("#userPassword").focusin(function autoGeneratePassword() {
         //call ajax
         $.ajax({
