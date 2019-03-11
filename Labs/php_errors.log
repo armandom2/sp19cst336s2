@@ -1,0 +1,5 @@
+[11-Mar-2019 17:54:40 UTC] PHP Warning:  strpos(): Empty needle in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab5/api.php on line 47
+[11-Mar-2019 17:54:40 UTC] PHP Stack trace:
+[11-Mar-2019 17:54:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Labs/Lab5/api.php:0
+[11-Mar-2019 17:54:40 UTC] PHP   2. processForm() /home/ubuntu/workspace/sp19cst336s2/Labs/Lab5/api.php:18
+[11-Mar-2019 17:54:40 UTC] PHP   3. strpos() /home/ubuntu/workspace/sp19cst336s2/Labs/Lab5/api.php:47

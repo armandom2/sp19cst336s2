@@ -9,7 +9,7 @@
 <body id="dummybodyid">
   <h1> Sign Up Form </h1>
 
-  <form method="POST" action="api.php">
+  <form>
     <fieldset>
       <legend>Sign Up</legend>
       <div><label>First Name:</label><input id = "userfirstName" type="text"></div>
@@ -22,7 +22,7 @@
       <div id="longOut"><label>Longitude:</label><div id= "long"></div></div>
       <div><label>State:</label><input id = "displayState" type="text" value =""></div>
       <div><label>Select a County:</label><select id = "counties"><option id='displayCounty' value=''></option></select></div>
-      <div id = "validUser"><label>Desired Username:</label><input id= "enteredUserName"type="text"><div id="notValid"></div></div>
+      <div id = "validUser"><label>Desired Username:</label><input id= "enteredUserName" type="text"><div id="notValid"></div></div>
       <div><label>Password:</label><input id="userPassword" type="password"></div>
       <div id= "validPassword"><label>Type Password Again:</label><input id = "userRePassword" type="password"><div id="invalidPassword"></div></div>
       <div id="userWasInputed"><input id = "buttonSubmittion" type="button" value="Sign up!"><div id ="successful"></div> </div>
@@ -30,68 +30,67 @@
   </form>
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
   <script>
-    var userNameDataBase = [];
-    
+  
     $("#inputZip").on("input",resultOfZip);
     $("#displayState").on("input", getCounties);
     
     $("#buttonSubmittion").on("click", function(){
-      $("#successful").html("");
-      $("#notValid").html("");
-      $("#invalidPassword").html("");
+      $("#successful").html(" ");
       console.log(document.getElementById("enteredUserName").value);
       console.log(document.getElementById("userPassword").value);
       console.log(document.getElementById("userRePassword").value);
-      
-      // // var userNameInfo = document.getElementById('enteredUserName');
-      // // textAlphanumeric(userNameInfo);
-      $.ajax({
-        type: "POST",
-        url: "api.php",
-        dataType: "json",
-        data: {
-          "process": "validate",
-          "username": $("#enteredUserName").val(),
-          "password": [$("#userPassword").val(), $("#userRePassword").val()],
-        },
-        success: function(data) {
-          console.log(data);
+        //call ajax
+        $.ajax({
+            type: "POST",
+            url: "api.php",
+            dataType: "json",
+            data: {
+                "check": "validate",
+                "username": document.getElementById("enteredUserName").value,
+                "password": document.getElementById("userPassword").value,
+            },
+            success: function(data) {
+                console.log(data);
                 
-          //valid username and everything filled out
-          if (data["output"] === "valid") {
-              //clear everything
-              userNameDataBase.splice(1,0,inputtext.value);
-              document.getElementById("userfirstName").value = "";
-              document.getElementById("userLastName").value = "";
-              document.getElementById("userEmail").value = "";
-              document.getElementById("userPhoneNumber").value = "";
-              document.getElementById("inputZip").value = "";
-              document.getElementById("userLastName").value = "";
-              $("#lat").html("");
-              $("#long").html("");
-              $("#successful").html("Approved!");
-              document.getElementById("displayState").value = "";
-              document.getElementById("displayState").value = "";
-              $('#counties option:not(:first)').remove();
-              
-              document.getElementById("enteredUserName").value = "";
-              document.getElementById("userPassword").value = "";
-              document.getElementById("userRePassword").value = "";
-              
-          }
-          else if (data["output"] === "Username exists") {
-              $("#notValid").html("Username already exists");
-          }
-          else if (data["output"] === "username found in password") {
-              $("#invalidPassword").html("Username should not be in password!");
-          }
-        },
-        error: function (error) {
-            console.log(error);
-        }
-      });
+                //valid username and everything filled out
+                if (data["output"] === "valid") {
+                    //clear everything
+                    // userNameDataBase.splice(1,0,inputtext.value);
+                    document.getElementById("userfirstName").value = "";
+                    document.getElementById("userLastName").value = "";
+                    document.getElementById("userEmail").value = "";
+                    document.getElementById("userPhoneNumber").value = "";
+                    document.getElementById("inputZip").value = "";
+                    document.getElementById("userLastName").value = "";
+                    $("#lat").html("");
+                    $("#long").html("");
+                    $("#successful").html("Approved!");
+                    document.getElementById("displayState").value = "";
+                    document.getElementById("displayState").value = "";
+                    $('#counties option:not(:first)').remove();
+                    
+                    document.getElementById("enteredUserName").value = "";
+                    document.getElementById("userPassword").value = "";
+                    document.getElementById("userRePassword").value = "";
+                }
+                else if (data["output"] === "userNameFound") {
+                    $("#notValid").html("Username already exists!");
+                }
+                else if (data["output"] === "userInPassword") {
+                    $("#invalidPassword").html("Username in password try again!");
+                }
+            },
+            error: function (error) {
+                console.log(error);
+            },
+            complete: function(data, status) { //optional, used for debugging purposes
+              //console.log(status);
+            }
+        });
+        
     });
     
+    //recommend password to user (fill in password field when clicked)
     $("#userPassword").focusin(function autoGeneratePassword() {
         //call ajax
         $.ajax({
@@ -99,19 +98,19 @@
             url: "api.php",
             dataType: "json",
             data: {
-                "process": "generatepassword",
+                "check": "passwordGenerate",
             },
             success: function(data) {
                 //set passwords to recommended
-                $("#userPassword").val(data["randomPassword"]);
-                $("#userRePassword").val(data["randomPassword"]);
+                document.getElementById("userPassword").value = data["randomPassword"];
+                document.getElementById("userRePassword").value = data["randomPassword"];
             },
             error: function (error) {
                 console.log(error);
             },
         });
     });
-    
+
     function resultOfZip(){
         $("#successful").html("");
         $.ajax({

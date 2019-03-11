@@ -1,67 +1,82 @@
 <?php
 
+    //return type (json object)
     header('Content-type: application/json');
     $dataBase = array();
+    
+    //start session
     session_start();
     
+    // Used to display an error output below the form
     $username = '';
     $passwords = '';
-    $outputMessage = '';
+    $outputoutput = '';
     
-    $getFIle = 'POST' === $_SERVER['REQUEST_METHOD'];
+    $getFile = 'POST' === $_SERVER['REQUEST_METHOD'];
     
-    // getting the message if Username and password are valid
-    if($getFile){
-        $outputMessage = checkUsernamePassword();
+    if ($getFile) {
+        $outputoutput = processForm();
     }
     
-    //function checker on Username and password
-    function checkUsernamePassword(){
-        //checking if password and username are valid 
-        if($_POST['process'] == "validate"){
+    function processForm()
+    {
+        //we need to check username
+        if ($_POST['check'] == "validate") {
             global $username;
             global $passwords;
-            
-            //getting the username and password
+        
+            //get username and passwords
             $username = (string)$_POST['username'];
-            $passwords = $_POST['password'];
-            $passwords[0] = (string)$posswords[0];
+            $password = (string)$_POST['password'];
+
+            // Validate the form
             $continue = true;
             
-            //iteration though each username checking if its valid
-            foreach($_SESSION as $pastUsername => $value){
-                if($pastUsername == $username){
+            //check if names are already used
+            foreach ($_SESSION as $pastUsername => $arr) {
+                if ($pastUsername == $username) {
                     $continue = false;
-                    $dataBase["output"] == "Username exists";
+                    $dataBase["output"] = "userNameFound";
+                    
                 }
             }
-            //checking to make sure username is not in password
-            if($continue){
-                if(strpos($passwords[0], $username) !== false){
+            
+            //check if username is in password
+            if ($continue) {
+                if (strpos($passwords, $username) !== false) {
                     $continue = false;
-                    $dataBase["output"] ="username found in password";
+                    $dataBase["output"] = "userInPassword";
                 }
             }
-            //username and password are valid
-            if($continue){
-                $_SESSION[$username] = $passwords[0];
+            
+            // TODO: process the registration
+            if ($continue) {
+                $_SESSION[$username] = $passwords;
                 $dataBase["output"] = "valid";
             }
-            //return message
+            
+            //return json array
             echo json_encode($dataBase);
         }
-        else if($_POST['process']== "generatepassword"){
+        
+        //we need to suggest password
+        else if ($_POST['check'] == "passwordGenerate") {
             
-            $gen_password = "";
-            for($i= 0; $i<8; $i++){
-                $character = rand(97,122);
-                $number = rand(1,9);
+            //create random password
+            $random_pass_8 = "";
+            for ($i = 0; $i < 8; $i++) {
+                $character = rand(97,122);;
+                $number = rand(1,9);;
                 $changetochar = chr($character);
                 $gen_password = $gen_password . (string)$changetochar . (string)$number;
+                
             }
+            
+            //set random password
             $dataBase["randomPassword"] = $gen_password;
+            
+            //return json array
             echo json_encode($dataBase);
         }
     }
-
 ?>
