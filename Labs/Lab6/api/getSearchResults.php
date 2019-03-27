@@ -6,10 +6,14 @@
     $namedParameters = array();
     $sql = "SELECT * FROM om_product WHERE 1";
     
+    // $variable = curPageURL();
+    // $variable = mysql_real_escape_string($variable);
+    // $query = "SELECT * FROM `tablename` WHERE `columnname` LIKE '%{$variable}%'";
+    
     //checks whether user has typed something in the "Product" text box.
     if(!empty($_GET['product'])){
         $sql .= " AND productName LIKE :productName";
-        $namedParameters[":productName"] ="%" . $_GET['product']. "%";
+        $namedParameters[":productName"] ="%".$_GET['product']."%";
     }
     
     //checks whether user has selected a category of product

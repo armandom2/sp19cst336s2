@@ -94,6 +94,7 @@
                         },
                         success: function(data,status){
                             data.forEach(function(key){
+                                
                                 $("#results").append("<a href='#' class ='historyLink' id ='" + key['productId'] + "'>History</a>");
                                 $("#results").append(key['productName']+" "+ key['productDescription'] + " $"+ key['price'] + "<br>");
                                 
