@@ -1,19 +1,19 @@
 <?php
-
+    //mysql://bce62f200bbfcd:9eb9c2a7@us-cdbr-iron-east-03.cleardb.net/heroku_50bf8b70dd9c9ee?reconnect=true
+    
     function getDatabaseConnection($dbname = 'heroku_50bf8b70dd9c9ee'){
         $host= 'us-cdbr-iron-east-03.cleardb.net';//cloud 9
-        //$dbname = 'tcp';
         $username = "bce62f200bbfcd";
-        $password = "9eb9c2a7";
+        $password = '9eb9c2a7';
         
         //when connecting from Heroku
         if(strpos($_SERVER['HTTP_HOST'],'herokuapp')!==false){
-            $url = parase_url(getenv("CLEARDB_DATABASE_URL"));
+            $url = parse_url(getenv("CLEARDB_DATABASE_URL"));
             $host = $url["host"];
             $dbname = substr($url["path"], 1);
             $username = $url["user"];
             $password = $url["pass"];
-        }
+        } 
 
         
         //creates DB connection

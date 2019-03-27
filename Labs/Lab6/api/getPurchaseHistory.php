@@ -1,6 +1,6 @@
 <?php
     include '../dbConnection.php';
-    $conn = getDatabaseConnection("ottermart");
+    $conn = getDatabaseConnection();
     
     $productId = $_GET['productId'];
     $sql = "SELECT * FROM om_product NATURAL JOIN om_purchase WHERE productId = :pId";
