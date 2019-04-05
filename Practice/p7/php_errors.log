@@ -1,0 +1,40 @@
+[27-Mar-2019 20:03:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getRandomProduct.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php on line 9
+[27-Mar-2019 20:03:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getRandomProduct.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php on line 9
+[27-Mar-2019 20:03:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getRandomProduct.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php on line 9
+[27-Mar-2019 20:04:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php(9): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getRandomProduct.php(5): getDatabaseConnection()
+#2 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/dbConnection.php on line 9
+[27-Mar-2019 20:54:49 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:55:02 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:55:04 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:55:06 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:55:06 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:55:07 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:55:08 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:55:17 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:57:27 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:57:34 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 20:57:35 UTC] PHP Parse error:  syntax error, unexpected '$conn' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 3
+[27-Mar-2019 21:04:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'exerationDate' in 'field list'' in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php:8
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php(8): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Practice/p7/api/getPromocode.php on line 8
