@@ -1,3 +1,9 @@
 [26-Feb-2019 00:45:02 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/sp19cst336s2/Examples/example5/index.php on line 31
 [26-Feb-2019 00:52:08 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sp19cst336s2/Examples/example5/index.php on line 29
 [26-Feb-2019 01:07:59 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/sp19cst336s2/Examples/example5/index.php on line 37
+[15-Apr-2019 23:32:53 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/sp19cst336s2/Examples/curl/pixa.php on line 18
+[15-Apr-2019 23:32:53 UTC] PHP Stack trace:
+[15-Apr-2019 23:32:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Examples/curl/pixa.php:0
+[15-Apr-2019 23:33:58 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/ubuntu/workspace/sp19cst336s2/Examples/curl/pixa.php on line 20
+[15-Apr-2019 23:33:58 UTC] PHP Stack trace:
+[15-Apr-2019 23:33:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Examples/curl/pixa.php:0

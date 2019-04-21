@@ -1,6 +1,6 @@
 body {
     background-color:black;
-    color:gray;
+    color:white;
 }
 header, main, nav, footer {
     text-align: center;
@@ -59,4 +59,24 @@ ul{
 #contactsheet{
     text-align: center;
     
+}
+h2{
+    text-align: center;
+    color:yellow;
+}
+#pacimg{
+    display: flex;
+    flex-direction: row;
+}
+#img1{
+    width: 500px;
+    height: 500px;
+    margin-left: 200px;
+}
+#img2{
+    width: 500px;
+    height: 500px;
+}
+h3{
+    color: orange;
 }
