@@ -1,0 +1,22 @@
+#head{
+    border: 100px solid red;
+    border-width: 30px;
+    background-color: red;
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+#userSearch{
+    height:25px;
+    width:200px;
+    font-size:14pt;
+}
+#searchButton{
+    height:30px;
+    width:50px;
+}
+#backButton{
+    height:30px;
+    width:50px;
+}
