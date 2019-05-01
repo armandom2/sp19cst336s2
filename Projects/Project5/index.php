@@ -1,4 +1,3 @@
-<?php include 'api/upload.php'; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -56,3 +55,4 @@
     </script>
     
 </html>
+<?php include 'api/upload.php'; ?>
