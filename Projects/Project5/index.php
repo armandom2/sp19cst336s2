@@ -39,7 +39,7 @@
         </div> 
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script type="text/javascript">
+    <script>
         function myFunction(imgs) {
             // Get the modal
             var modal = document.getElementById('myModal');
@@ -51,9 +51,8 @@
             // When the user clicks on <span> (x), close the modal
             span.onclick = function() { 
             modal.style.display = "none";
+            }
         }
-        }
-        
     </script>
     
     
