@@ -1,0 +1,389 @@
+[30-Apr-2019 04:46:43 UTC] PHP Warning:  include_once(dbConfig.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:46:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:46:43 UTC] PHP Warning:  include_once(): Failed opening 'dbConfig.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:46:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:46:43 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:46:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:05 UTC] PHP Warning:  include_once(dbConfig.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:47:05 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:05 UTC] PHP Warning:  include_once(): Failed opening 'dbConfig.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:47:05 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:05 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:47:05 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:06 UTC] PHP Warning:  include_once(dbConfig.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:47:06 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:06 UTC] PHP Warning:  include_once(): Failed opening 'dbConfig.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:47:06 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:06 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:47:06 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:46 UTC] PHP Warning:  include_once(dbConfig.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:47:46 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:46 UTC] PHP Warning:  include_once(): Failed opening 'dbConfig.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:47:46 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:47:46 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:47:46 UTC] PHP Stack trace:
+[30-Apr-2019 04:47:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:48:22 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:48:22 UTC] PHP Stack trace:
+[30-Apr-2019 04:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:48:22 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:48:22 UTC] PHP Stack trace:
+[30-Apr-2019 04:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:48:22 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:48:22 UTC] PHP Stack trace:
+[30-Apr-2019 04:48:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:49:31 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:49:31 UTC] PHP Stack trace:
+[30-Apr-2019 04:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:49:31 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:49:31 UTC] PHP Stack trace:
+[30-Apr-2019 04:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:49:31 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:49:31 UTC] PHP Stack trace:
+[30-Apr-2019 04:49:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:49:32 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:49:32 UTC] PHP Stack trace:
+[30-Apr-2019 04:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:49:32 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:49:32 UTC] PHP Stack trace:
+[30-Apr-2019 04:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:49:32 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:49:32 UTC] PHP Stack trace:
+[30-Apr-2019 04:49:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:54:42 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:54:42 UTC] PHP Stack trace:
+[30-Apr-2019 04:54:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:54:42 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:54:42 UTC] PHP Stack trace:
+[30-Apr-2019 04:54:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:54:42 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:54:42 UTC] PHP Stack trace:
+[30-Apr-2019 04:54:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:54:43 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:54:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:54:43 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:54:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:54:43 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:54:43 UTC] PHP Stack trace:
+[30-Apr-2019 04:54:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:49 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:55:49 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:49 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:55:49 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:49 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:55:49 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:51 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 4
+[30-Apr-2019 04:55:51 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 04:55:51 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 4
+[30-Apr-2019 04:55:51 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 04:55:51 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 11
+[30-Apr-2019 04:55:51 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 04:55:51 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:11
+[30-Apr-2019 04:55:51 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:55:51 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:51 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:55:51 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:51 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:55:51 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:55 UTC] PHP Warning:  include_once(dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:55:55 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:55 UTC] PHP Warning:  include_once(): Failed opening 'dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 27
+[30-Apr-2019 04:55:55 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 04:55:55 UTC] PHP Fatal error:  Call to a member function query() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 30
+[30-Apr-2019 04:55:55 UTC] PHP Stack trace:
+[30-Apr-2019 04:55:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:02:05 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 11
+[30-Apr-2019 05:02:05 UTC] PHP Stack trace:
+[30-Apr-2019 05:02:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:02:05 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:02:05 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:11
+[30-Apr-2019 05:05:34 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 11
+[30-Apr-2019 05:05:34 UTC] PHP Stack trace:
+[30-Apr-2019 05:05:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:05:34 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:05:34 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:11
+[30-Apr-2019 05:06:18 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 11
+[30-Apr-2019 05:06:18 UTC] PHP Stack trace:
+[30-Apr-2019 05:06:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:06:18 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:06:18 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:11
+[30-Apr-2019 05:10:15 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 11
+[30-Apr-2019 05:10:15 UTC] PHP Stack trace:
+[30-Apr-2019 05:10:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:10:15 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:10:15 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:11
+[30-Apr-2019 05:10:22 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 11
+[30-Apr-2019 05:10:22 UTC] PHP Stack trace:
+[30-Apr-2019 05:10:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:10:22 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:10:22 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:11
+[30-Apr-2019 05:10:29 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 11
+[30-Apr-2019 05:10:29 UTC] PHP Stack trace:
+[30-Apr-2019 05:10:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:10:29 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:10:29 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:11
+[30-Apr-2019 05:12:54 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 18
+[30-Apr-2019 05:12:54 UTC] PHP Stack trace:
+[30-Apr-2019 05:12:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:12:54 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:12:54 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:18
+[30-Apr-2019 05:14:09 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 12
+[30-Apr-2019 05:14:09 UTC] PHP Stack trace:
+[30-Apr-2019 05:14:09 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:14:09 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:14:09 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:12
+[30-Apr-2019 05:15:17 UTC] PHP Warning:  move_uploaded_file(uploads/player1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 22
+[30-Apr-2019 05:15:17 UTC] PHP Stack trace:
+[30-Apr-2019 05:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:15:17 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:15:17 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:22
+[30-Apr-2019 05:15:17 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phphQShbg' to 'uploads/player1.png' in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 22
+[30-Apr-2019 05:15:17 UTC] PHP Stack trace:
+[30-Apr-2019 05:15:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:15:17 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:15:17 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:22
+[30-Apr-2019 05:16:03 UTC] PHP Warning:  move_uploaded_file(uploads/player1.png): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 22
+[30-Apr-2019 05:16:03 UTC] PHP Stack trace:
+[30-Apr-2019 05:16:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:16:03 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:16:03 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:22
+[30-Apr-2019 05:16:03 UTC] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpWXP0jW' to 'uploads/player1.png' in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php on line 22
+[30-Apr-2019 05:16:03 UTC] PHP Stack trace:
+[30-Apr-2019 05:16:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:16:03 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[30-Apr-2019 05:16:03 UTC] PHP   3. move_uploaded_file() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/upload.php:22
+[30-Apr-2019 05:30:10 UTC] PHP Fatal error:  Call to undefined function prepare() in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 33
+[30-Apr-2019 05:30:10 UTC] PHP Stack trace:
+[30-Apr-2019 05:30:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:32:10 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 40
+[30-Apr-2019 05:32:10 UTC] PHP Stack trace:
+[30-Apr-2019 05:32:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 05:32:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 40
+[30-Apr-2019 05:32:34 UTC] PHP Stack trace:
+[30-Apr-2019 05:32:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[30-Apr-2019 21:14:08 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 60
+[30-Apr-2019 21:14:08 UTC] PHP Stack trace:
+[30-Apr-2019 21:14:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:22:23 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:22:23 UTC] PHP Stack trace:
+[01-May-2019 04:22:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:22:23 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:22:23 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:24:13 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:24:13 UTC] PHP Stack trace:
+[01-May-2019 04:24:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:24:13 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:24:13 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:24:20 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:24:20 UTC] PHP Stack trace:
+[01-May-2019 04:24:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:24:20 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:24:20 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:27:12 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:27:12 UTC] PHP Stack trace:
+[01-May-2019 04:27:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:27:12 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:27:12 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:29:50 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:29:50 UTC] PHP Stack trace:
+[01-May-2019 04:29:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:29:50 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:29:50 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:30:23 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:30:23 UTC] PHP Stack trace:
+[01-May-2019 04:30:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:30:23 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:30:23 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:31:50 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:31:50 UTC] PHP Stack trace:
+[01-May-2019 04:31:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:31:50 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:31:50 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:33:28 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:33:28 UTC] PHP Stack trace:
+[01-May-2019 04:33:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:33:28 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:33:28 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:54:07 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:54:07 UTC] PHP Stack trace:
+[01-May-2019 04:54:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:54:07 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:54:07 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 04:54:33 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 04:54:33 UTC] PHP Stack trace:
+[01-May-2019 04:54:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 04:54:33 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 04:54:33 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 05:30:08 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 05:30:08 UTC] PHP Stack trace:
+[01-May-2019 05:30:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 05:30:08 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 05:30:08 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 05:37:57 UTC] PHP Parse error:  syntax error, unexpected '$timestamp' (T_VARIABLE) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 15
+[01-May-2019 05:37:57 UTC] PHP Stack trace:
+[01-May-2019 05:37:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 05:54:13 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 7
+[01-May-2019 05:54:13 UTC] PHP Stack trace:
+[01-May-2019 05:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 05:54:13 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 05:54:13 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:7
+[01-May-2019 05:54:13 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 05:54:13 UTC] PHP Stack trace:
+[01-May-2019 05:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 05:54:13 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 05:54:13 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 05:54:13 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 9
+[01-May-2019 05:54:13 UTC] PHP Stack trace:
+[01-May-2019 05:54:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 05:54:13 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 05:54:13 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:9
+[01-May-2019 06:07:42 UTC] PHP Parse error:  syntax error, unexpected '"','"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:07:42 UTC] PHP Stack trace:
+[01-May-2019 06:07:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:08:14 UTC] PHP Parse error:  syntax error, unexpected '"','"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:08:14 UTC] PHP Stack trace:
+[01-May-2019 06:08:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:08:15 UTC] PHP Parse error:  syntax error, unexpected '"','"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:08:15 UTC] PHP Stack trace:
+[01-May-2019 06:08:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:08:50 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:08:50 UTC] PHP Stack trace:
+[01-May-2019 06:08:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:08:52 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:08:52 UTC] PHP Stack trace:
+[01-May-2019 06:08:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:08:54 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:08:54 UTC] PHP Stack trace:
+[01-May-2019 06:08:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:09:03 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:09:03 UTC] PHP Stack trace:
+[01-May-2019 06:09:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:09:04 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:09:04 UTC] PHP Stack trace:
+[01-May-2019 06:09:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:09:26 UTC] PHP Parse error:  syntax error, unexpected '","' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 20
+[01-May-2019 06:09:26 UTC] PHP Stack trace:
+[01-May-2019 06:09:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:10:56 UTC] PHP Warning:  array_filter() expects parameter 1 to be array, null given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 14
+[01-May-2019 06:10:56 UTC] PHP Stack trace:
+[01-May-2019 06:10:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:10:56 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:10:56 UTC] PHP   3. array_filter() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:14
+[01-May-2019 06:34:00 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:34:00 UTC] PHP Stack trace:
+[01-May-2019 06:34:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:34:00 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:34:00 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:34:51 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 7
+[01-May-2019 06:34:51 UTC] PHP Stack trace:
+[01-May-2019 06:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:34:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:34:51 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:7
+[01-May-2019 06:34:51 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:34:51 UTC] PHP Stack trace:
+[01-May-2019 06:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:34:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:34:51 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:34:51 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 9
+[01-May-2019 06:34:51 UTC] PHP Stack trace:
+[01-May-2019 06:34:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:34:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:34:51 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:9
+[01-May-2019 06:35:36 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 7
+[01-May-2019 06:35:36 UTC] PHP Stack trace:
+[01-May-2019 06:35:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:35:36 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:35:36 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:7
+[01-May-2019 06:35:36 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:35:36 UTC] PHP Stack trace:
+[01-May-2019 06:35:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:35:36 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:35:36 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:35:36 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 9
+[01-May-2019 06:35:36 UTC] PHP Stack trace:
+[01-May-2019 06:35:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:35:36 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:35:36 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:9
+[01-May-2019 06:36:42 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:36:42 UTC] PHP Stack trace:
+[01-May-2019 06:36:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:36:42 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:36:42 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:36:42 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:36:42 UTC] PHP Stack trace:
+[01-May-2019 06:36:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:36:42 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:36:42 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:36:51 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 7
+[01-May-2019 06:36:51 UTC] PHP Stack trace:
+[01-May-2019 06:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:36:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:36:51 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:7
+[01-May-2019 06:36:51 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:36:51 UTC] PHP Stack trace:
+[01-May-2019 06:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:36:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:36:51 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:36:51 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 9
+[01-May-2019 06:36:51 UTC] PHP Stack trace:
+[01-May-2019 06:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:36:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:36:51 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:9
+[01-May-2019 06:37:07 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 7
+[01-May-2019 06:37:07 UTC] PHP Stack trace:
+[01-May-2019 06:37:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:37:07 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:37:07 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:7
+[01-May-2019 06:37:07 UTC] PHP Warning:  file_get_contents() expects parameter 1 to be a valid path, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:37:07 UTC] PHP Stack trace:
+[01-May-2019 06:37:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:37:07 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:37:07 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:37:07 UTC] PHP Warning:  mysql_real_escape_string() expects parameter 1 to be string, array given in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 9
+[01-May-2019 06:37:07 UTC] PHP Stack trace:
+[01-May-2019 06:37:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:37:07 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:37:07 UTC] PHP   3. mysql_real_escape_string() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:9
+[01-May-2019 06:37:39 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:37:39 UTC] PHP Stack trace:
+[01-May-2019 06:37:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:37:39 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:37:39 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:47:11 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 8
+[01-May-2019 06:47:11 UTC] PHP Stack trace:
+[01-May-2019 06:47:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:47:11 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:47:11 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:8
+[01-May-2019 06:52:46 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 9
+[01-May-2019 06:52:46 UTC] PHP Stack trace:
+[01-May-2019 06:52:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[01-May-2019 06:52:46 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[01-May-2019 06:52:46 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:9
+[01-May-2019 17:56:21 UTC] PHP Parse error:  syntax error, unexpected 'caption' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 29
