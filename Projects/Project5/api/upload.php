@@ -1,7 +1,13 @@
 <?php
     include 'dbConnection.php';
-    mysql_connect($dbHost, $dbUsername, $dbPassword);
-    mysql_select_db($dbName);
+    
+//     $dbHost="us-cdbr-iron-east-03.cleardb.net";
+//     $dbUsername="bce62f200bbfcd";
+//     $dbPassword = "9eb9c2a7";
+//     $dbName = "heroku_50bf8b70dd9c9ee";
+
+    mysql_connect("us-cdbr-iron-east-03.cleardb.net", "bce62f200bbfcd","9eb9c2a7");
+    mysql_select_db("heroku_50bf8b70dd9c9ee");
     
     if(isset($_POST['submit']))
     {
