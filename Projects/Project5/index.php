@@ -67,10 +67,12 @@
             var sEmail = $('#modalEmail').val();
             
             if ($.trim(sEmail).length == 0) {
+                $("#submitbutton").attr("disabled", true);
                 alert('Please enter valid email address');
             }
             else if (!validateEmail(sEmail)) {
                 alert('Invalid Email Address');
+                $("#submitbutton").attr("disabled", true);
                 e.preventDefault();
             }
             else if(validateEmail(sEmail)){
