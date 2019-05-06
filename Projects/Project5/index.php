@@ -9,7 +9,7 @@
         <div id="myModalDos" class="modal-Dos">
           <div class="modalcontentDos">
             <center>
-            <p>Login in as guess, please enter valid email to upload images</p>
+            <p>Logged in as guest, please enter valid email to upload images</p>
             Email: <input type = "text" id = "modalEmail">
             <button id = "go">GO!</button>
             </center>
