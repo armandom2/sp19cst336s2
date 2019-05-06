@@ -387,3 +387,15 @@
 [01-May-2019 06:52:46 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
 [01-May-2019 06:52:46 UTC] PHP   3. file_get_contents() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php:9
 [01-May-2019 17:56:21 UTC] PHP Parse error:  syntax error, unexpected 'caption' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php on line 29
+[06-May-2019 08:40:51 UTC] PHP Warning:  include(../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 2
+[06-May-2019 08:40:51 UTC] PHP Stack trace:
+[06-May-2019 08:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[06-May-2019 08:40:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[06-May-2019 08:40:51 UTC] PHP Warning:  include(): Failed opening '../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 2
+[06-May-2019 08:40:51 UTC] PHP Stack trace:
+[06-May-2019 08:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[06-May-2019 08:40:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1
+[06-May-2019 08:40:51 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/api/upload.php on line 3
+[06-May-2019 08:40:51 UTC] PHP Stack trace:
+[06-May-2019 08:40:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:0
+[06-May-2019 08:40:51 UTC] PHP   2. include() /home/ubuntu/workspace/sp19cst336s2/Projects/Project5/index.php:1

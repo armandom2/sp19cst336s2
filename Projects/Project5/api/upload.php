@@ -1,51 +1,50 @@
 <?php
-    include 'dbConnection.php';
+    include '../dbConnection.php';
+    $conn = getDatabaseConnection();
+    $sql = '';
     
-//     $dbHost="us-cdbr-iron-east-03.cleardb.net";
-//     $dbUsername="bce62f200bbfcd";
-//     $dbPassword = "9eb9c2a7";
-//     $dbName = "heroku_50bf8b70dd9c9ee";
-
-    mysql_connect("us-cdbr-iron-east-03.cleardb.net", "bce62f200bbfcd","9eb9c2a7");
-    mysql_select_db("heroku_50bf8b70dd9c9ee");
-    
-    if(isset($_POST['submit']))
-    {
+    if(isset($_POST['submit'])){
         $file = $_FILES['image'];
+
+        $fileName = $file['name'];
+        $fileTmpName = $file['tmp_name'];
         $fileSize = $file['size'];
+        $fileError = $file['error'];
+        $fileType = $file['type'];
         
-        //EMAIL ADDRESS
-        if(!empty ($_POST['email_address']))
-        {
-            if(!empty($_POST['caption']))
-            {
+        
+        $fileExt = explode('.', $fileName);
+        $realExt = strtolower(end($fileExt));
+        
+        $allowed = array('jpg', 'jpeg', 'png');
+        
+        if(in_array($realExt, $allowed)){
+            if($fileError === 0){
                 if($fileSize < 1000000){
-                    $imageName = mysql_real_escape_string($_FILES["image"]["name"]);
-                    $imageData = mysql_real_escape_string(file_get_contents($_FILES["image"]["tmp_name"]));
-                    $imageType = mysql_real_escape_string($_FILES['image']['type']);
-                    $emailadd = ($_POST['email_address']);
-                    $cap = ($_POST['caption']);
-                    $timestamp = date("Y-m-d H:i:s");
                     
-                    if(substr($imageType,0,5) == "image"){
-                        mysql_query("INSERT INTO image_upload(email_address, caption, media, timestamp) VALUES('$emailadd','$cap','$imageData','$timestamp')");
-                        $statusMsg ="Images Uploaded Sucessfully!";
-                    }
-                    else{
-                        $statusMsg ="only images are allowed";
-                    }
+                    
+                    $img = addslashes(file_get_contents($fileTmpName));
+                    $caption = $_POST['caption'];
+                    $email = $_POST['email'];
+                    $timestamp = date("Y-m-d h:i:sa");
+                    
+                    $sql = "INSERT INTO image_upload(email_address, caption, media, timestamp) VALUES('$email', '$caption', '$img', '$timestamp')";
+                    
+                    $stmt = $conn->prepare($sql);
+                    $stmt->execute();
+                    header("Location: ../index.php?uploadsuccess");
                 }
                 else{
-                   $statusMsg = "File Size to big";
+                    header("Location: ../index.php?uploadFAIL");
                 }
             }
             else{
-                $statusMsg = "Caption is Empty";
-            }
+                header("Location: ../index.php?uploadFAIL");
+            }       
         }
         else{
-        $statusMsg = "Email Address is Empty";
+            header("Location: ../index.php?uploadFAIL");
         }
+        
     }
-    echo $statusMsg
 ?>
