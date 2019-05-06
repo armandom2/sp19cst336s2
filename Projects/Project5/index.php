@@ -74,7 +74,6 @@
                 e.preventDefault();
             }
             else if(validateEmail(sEmail)){
-                modalDos.style.display = "none";
                 $("#email").val(sEmail);
                 $("#submitbutton").attr("disabled", false);
                 e.preventDefault();
