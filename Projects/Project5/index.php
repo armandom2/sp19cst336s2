@@ -51,9 +51,9 @@
     </body>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script>
-        var modalDos = document.getElementById('myModalDos');
-        var spanDos = document.getElementsByClassName("closeDos")[0];
-        modalDos.style.display = "block";
+        // var modalDos = document.getElementById('myModalDos');
+        // var spanDos = document.getElementsByClassName("closeDos")[0];
+        // modalDos.style.display = "block";
         $("#submitbutton").attr("disabled", true);
         
         $("#go").on("click",function() {
