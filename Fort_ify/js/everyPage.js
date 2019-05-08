@@ -25,6 +25,7 @@ function search() {
         
         collectData();
         console.log(meUser);
+        console.log(username);
         $.ajax({
             url: "API/logQuery.php",
             type: "POST",
