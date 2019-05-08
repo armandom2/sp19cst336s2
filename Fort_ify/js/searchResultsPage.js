@@ -43,6 +43,7 @@ $(function() {
 		.then(results => showMeta(results))
 
 	function showMeta(results) {
+		console.log("DAAWWGG");
 		console.log(results)
 		if (results.length === 0) {
 			return;
