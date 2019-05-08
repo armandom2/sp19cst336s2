@@ -28,7 +28,7 @@ function search() {
         console.log(username);
         $.ajax({
             url: "API/logQuery.php",
-            type: "GET",
+            type: "POST",
             data: {
                 "id": meUser, 
                 "search": username,
@@ -38,9 +38,9 @@ function search() {
                 console.log(data)
                 window.location.href = "searchResults.php?username=" + username;
             },
-            // complete: function(data, status) {
-            //     console.log(data)
-            // }
+            complete: function(data, status) {
+                console.log(data)
+            }
         })
     }
 }
