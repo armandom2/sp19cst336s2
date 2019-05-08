@@ -28,7 +28,7 @@ function search() {
         console.log(username);
         $.ajax({
             url: "API/logQuery.php",
-            type: "POST",
+            type: "GET",
             data: {
                 "id": meUser, 
                 "search": username,
