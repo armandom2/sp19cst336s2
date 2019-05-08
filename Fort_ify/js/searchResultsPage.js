@@ -35,6 +35,7 @@
 var meUser;
 $(function() {
 	username = GetParameterValues('username').split("+").join(" ");
+	console.log(username);
 
 	// if the search found something, then the showMeta will show text and then
 	// it will fill in the stats later
