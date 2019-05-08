@@ -21,6 +21,4 @@ function getDatabaseConnection($dbname = "heroku_50bf8b70dd9c9ee"){
         return $dbConn;
     }
 
-?>sadasddfhjkskhudsfhjksdfkhj
-
-'asdghiuadsihudhuia
+?>
