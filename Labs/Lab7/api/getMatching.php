@@ -4,14 +4,16 @@
 include '../dbConnection.php';
 $conn = getDatabaseConnection();
 
-$productId = $_GET['productId'];
+// $productId = $_GET['productId'];
+$pName = $_GET['pName'];
+
+
 $sql = 'SELECT * 
         FROM om_product 
-        NATURAL JOIN om_purchase 
-        WHERE productId = :pId';
+        WHERE productName = :pName;';
 
 $np = array();
-$np['pId'] = $productId;
+$np['pName'] = $pName;
 
 $stmt = $conn->prepare($sql);
 $stmt->execute($np);

@@ -1,0 +1,185 @@
+[11-May-2019 18:11:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:11:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:11:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:11:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:11:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:11:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:11:15 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:13:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:13:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:13:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:13:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:13:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:13:10 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:13:11 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:26:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:26:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:08 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:09 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47
+[11-May-2019 18:31:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'hello57748'@'localhost' (using password: NO)' in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php:47
+Stack trace:
+#0 /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php(47): PDO->__construct('mysql:host=loca...', 'hello57748', '')
+#1 {main}
+  thrown in /home/ubuntu/workspace/sp19cst336s2/Labs/Lab7/dashboard/login.php on line 47

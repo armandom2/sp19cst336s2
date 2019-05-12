@@ -1,0 +1,46 @@
+th{
+    border-bottom-color: red;
+    border-bottom:solid 1px;
+    text-align:center;
+    width: 300px;
+    font-size: 20px;
+}
+
+td{
+    height: 100px;
+    font-size: 15px;
+}
+
+#invitation{
+    margin-top: 25px;
+    padding-left: 560px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: 20px;
+    background-color: #ADDDAB;
+}
+#centerTable{
+    margin-left:50px;
+    background-image: linear-gradient(#7c7ca6 ,#00d4ff);
+}
+#rubric{
+    margin-left:50px;
+}
+#addslots{
+    border: solid 1px;
+}
+#logout{
+    text-align:right;
+    font-size: 20px;
+}
+#modelInfo{
+    font-size:25px;
+    margin-top: 120px;
+    margin-left: 120px;
+}
+#HeadersForTable{
+    height: 100px;
+}
+h3{
+    text-align: center;
+}
